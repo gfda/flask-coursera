@@ -1,3 +1,4 @@
+from datetime import datetime
 from app import db
 
 
@@ -7,4 +8,4 @@ class Task(db.Model):
     date = db.Column(db.Date, nullable=False)
 
     def __repr__(self):
-        return f'{self.title} created on {self.date}'
+        return f'{self.title}'
