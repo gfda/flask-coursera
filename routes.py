@@ -9,7 +9,7 @@ import forms
 @app.route('/index')
 def index():
     tasks = Task.query.all()
-    return render_template('index.html')
+    return render_template('index.html', tasks=tasks)
 
 
 @app.route('/add', methods=['GET', 'POST'])
