@@ -6,4 +6,10 @@ A minimal flask application.
 
 ### Installing
 
+Install any dependencies:
+
+```
+pip install -r requirements.txt
+```
+
 ## Author
