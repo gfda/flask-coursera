@@ -1,6 +1,6 @@
 # Task manager
 
-A minimal flask application. 
+A minimal Flask application, in which you can add, edit, and delete a task (CRUD).
 
 ## Getting Started
 
@@ -11,6 +11,10 @@ Install any dependencies:
 ```
 pip install -r requirements.txt
 ```
+
+## Deployment
+
+All deployment was made using Heroku.
 
 ## Author
 
