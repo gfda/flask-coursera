@@ -8,9 +8,19 @@ A minimal Flask application, in which you can add, edit, and delete a task (CRUD
 
 Install any dependencies:
 
-```
+```console
 pip install -r requirements.txt
 ```
+
+## About
+
+All tasks should be showing on the home page (index)
+
+![home-img[(home-img-link)
+
+If there are no tasks, it's possible to add a new one.
+
+![home-img[(add-task-img-link)
 
 ## Deployment
 
