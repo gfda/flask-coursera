@@ -16,11 +16,11 @@ pip install -r requirements.txt
 
 All tasks should be showing on the home page (index)
 
-![home-img[(home-img-link)
+![home-img](home-img-link)
 
 If there are no tasks, it's possible to add a new one.
 
-![home-img[(add-task-img-link)
+![home-img](add-task-img-link)
 
 ## Deployment
 
