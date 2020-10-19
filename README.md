@@ -1,6 +1,6 @@
 # Task manager
 
-[![Heroku](https://heroku-badge.herokuapp.com/?app=task-manager-flaskpython)]
+![Heroku](https://heroku-badge.herokuapp.com/?app=task-manager-flaskpython)
 
 A minimal Flask application, in which you can add, edit, and delete a task (CRUD).
 
