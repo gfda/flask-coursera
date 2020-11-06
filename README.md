@@ -24,6 +24,22 @@ If there are no tasks, it's possible to add a new one.
 
 ![home-img](add-task-img-link)
 
+## Running
+
+To run the application locally, it's possible to use **flask run** or **Python -m** command.
+
+```console
+$ export FLASK_APP=hello.py
+$ flask run
+```
+
+or
+
+```console
+$ export FLASK_APP=hello.py
+$ python -m flask run
+```
+
 ## Deployment
 
 All deployment was made using Heroku.
