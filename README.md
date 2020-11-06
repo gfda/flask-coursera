@@ -11,7 +11,7 @@ A minimal Flask application, in which you can add, edit, and delete a task (CRUD
 Install any dependencies:
 
 ```console
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 ## About
