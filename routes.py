@@ -16,8 +16,8 @@ def index():
 def add():
     form = forms.AddTaskForm()
     if form.validate_on_submit():
-        t = Task(title=form.title.data, date=datetime.utcnow())
-        db.session.add(t)
+        task = Task(title=form.title.data, date=datetime.utcnow())
+        db.session.add(task)
         db.session.commit()
         flash('Task added to the database')
         return redirect(url_for('index'))
