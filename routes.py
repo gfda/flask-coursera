@@ -13,7 +13,7 @@ def index():
 
 
 @app.route('/add', methods=['GET', 'POST'])
-def add():
+def add_task():
     form = forms.AddTaskForm()
     if form.validate_on_submit():
         task = Task(title=form.title.data, date=datetime.utcnow())
@@ -25,7 +25,7 @@ def add():
 
 
 @app.route('/edit/<int:task_id>', methods=['GET', 'POST'])
-def edit(task_id):
+def edit_task(task_id):
     task = Task.query.get(task_id)
     form = forms.AddTaskForm()
 
@@ -44,7 +44,7 @@ def edit(task_id):
     return redirect(url_for('index'))
 
 @app.route('/delete/<int:task_id>', methods=['GET', 'POST'])
-def delete(task_id):
+def delete_task(task_id):
     task = Task.query.get(task_id)
     form = forms.DeleteTaskForm()
 
